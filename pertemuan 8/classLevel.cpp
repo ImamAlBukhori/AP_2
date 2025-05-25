@@ -11,7 +11,7 @@ class ContohAkses {
     public:
         int publicVar;
 
-        // Contructor
+        // Contructor, Fungsi yang mempersiapkan objek saat pertama kali dibuat.
         ContohAkses() {
             privateVar = 1;
             protectedVar = 2;
@@ -26,7 +26,7 @@ class ContohAkses {
     }
 };
 
-// kelas turunan 
+// kelas turunan, Kelas yang dibuat dengan mewarisi properti dari kelas lain kecuali kelas private
 class Turunan : public ContohAkses {
     public: 
     void aksesProtected() {
