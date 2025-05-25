@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // Kumpulan variabel dengan tipe berbeda yang dikelompokkan jadi satu.
 #include <vector>
 
 using namespace std;
