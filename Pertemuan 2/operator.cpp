@@ -10,7 +10,7 @@ int main() {
     a = 3;
     b = 5;
 
-    // // Arithmetical Operator
+    // // Arithmetical Operator, operator untuk operasi matematika seperti jumlah, kurang, kali dan bagi.
     // int tambah = a + b;
     // int kurang = a - b;
     // int kali = a * b;
@@ -23,7 +23,7 @@ int main() {
     // cout << "hasil pembagian = " << bagi << endl;
     // cout << "hasil sisa bagi = " << modulo << endl;
 
-    // Relational Operator
+    // Relational Operator, ini berguna untuk membandingkan kedua nilai.
     // cout << (a==b) << endl;
     // cout << (a<b) << endl;
     // cout << (a<=b) << endl;
@@ -31,7 +31,7 @@ int main() {
     // cout << (a>=b) << endl;
     // cout << (a!=b) << endl;
 
-    // Logical Operator (&&,||,!)
+    // Logical Operator (&&,||,!), untuk menggabungkan 2 atau lebih suatu kondisi dan menentukan pilihannya seperti true/false.
     // cout << (true && true) << endl;
     // cout << (true && false) << endl;
     // cout << (false && true) << endl;
@@ -45,7 +45,7 @@ int main() {
     // cout << !true << endl;
     // cout << !false << endl;
 
-    // Bitwise Operator (&,|,^,~,>>,<<) --> biner
+    // Bitwise Operator (&,|,^,~,>>,<<) --> biner, untuk melakukan operasi secara langsung kepada bit, ini berguna untuk efisiensi pengolahan data.
     // cout << (5&7) << endl;
     // cout << (5|7) << endl;
     // cout << (5^7) << endl;
@@ -53,7 +53,7 @@ int main() {
     // cout << (7<<2) << endl;
     // cout << (7>>2) << endl;
 
-    // Shorthand
+    // Shorthand, untuk menyingkat penulisan operasi
     // a += 7; // a = a + 7
     // cout << a << endl;
 
@@ -66,15 +66,15 @@ int main() {
     // a /= 7; // a = a : 7
     // cout << a << endl;
 
-    // Increment, Decrement 
-    // Pre Increment 
+    // Increment, Decrement = increment itu operator untuk menambah 1 bilangan dan decrement mengurangi 1 nilai.
+    // Pre Increment = Menambahkan 1 ke variabel terlebih dahulu.
     // cout << a << endl;
     // cout << ++a << endl;
 
     // cout << b << endl;
     // cout << ++b << endl;
 
-    // Post Increment
+    // Post Increment = Menggunakan nilai variabel terlebih dahulu, baru menambahkannya 1 setelahnya.
     // cout << a << endl;
     // cout << a++ << endl;
     // cout << a << endl;
@@ -83,14 +83,14 @@ int main() {
     // cout << b++ << endl;
     // cout << b << endl;
 
-    // Pre Decrement 
+    // Pre Decrement = kurangi 1 nilai terlebih dahulu
     // cout << a << endl;
     // cout << --a << endl;
 
     // cout << b << endl;
     // cout << --b << endl;
 
-    // Post Decrement 
+    // Post Decrement = Gunakan nilai variabel terlebih dahulu, baru kurangi nilainya 1 setelahnya.
     // cout << a << endl;
     // cout << a-- << endl;
     // cout << a << endl;
