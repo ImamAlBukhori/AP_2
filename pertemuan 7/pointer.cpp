@@ -13,7 +13,7 @@ void penjumlahanpointer(int *a, int *b) {
 int main() {
     system("CLS");
 
-    // pointer declaration
+    // pointer declaration, variabel yang menyimpan alamat memori dari variabel lain.
     int number = 35;
     int *pointer_number = &number;
     // cout << "Isi variabel number = " << number << endl;
