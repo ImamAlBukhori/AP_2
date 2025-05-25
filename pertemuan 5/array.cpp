@@ -5,7 +5,7 @@ using namespace std;
 
 int main () {
         system("CLS");
-        // Array Declaration & initialization
+        // Array Declaration & initialization = array declaration Mendeklarasikan array dan ukurannya dan initalization Memberi nilai awal pada array saat deklarasi.
         /* 2 cara membuat array */
 
         // cara 1 : array kosong 
@@ -20,24 +20,24 @@ int main () {
         // string nama[5] = {"nolan", "julian", "lukas", "lancelot"};
         // string nama[] = {"nolan", "julian", "lukas", "lancelot"};
         
-        // Ascending element in Array
+        // Ascending element in Array = mengurutkan elemen-elemen dalam array dari nilai terkecil ke terbesar.
         // cout << nama[0] << endl;
         // cout << nama[1] << endl;
         // cout << nama[2] << endl;
         // cout << nama[3] << endl;
         // cout << nama[4] << endl;
 
-        // Menggunakan Looping
+        // Menggunakan Looping, perulangan
         // for(int = i = 0; i < 5; i++) {
         //     cout << nama[i] << endl;
         // }
 
-        // Descending element in Array use Looping
+        // Descending element in Array use Looping, mengurutkan elemen array dengan descending, mengurutkan dari yang terbesar ke terkecil
         // for (int i = 4; i >=0; i--) {
         //     cout << nama[i] << endl;
         // }
 
-        //Multidimensional Array
+        //Multidimensional Array, array yang mempunyai baris dan kolom
         // 1 3 5 
         // 2 4 6
 
@@ -57,7 +57,7 @@ int main () {
             // cout << endl;
         // }
 
-        // (String Array of Caracter)
+        // (String Array of Caracter), menyimpan kalimat atau kata sebagai array karakter.
         // string nama = "imam";
         // cout << nama[0] << endl;
         // cout << nama[2] << endl;
@@ -85,7 +85,7 @@ int main () {
         // cout << s1.substr(2,3) << endl;
         // cout << (s1 + s2).substr(5,3) << endl;
 
-        // Operator sizeof
+        // Operator sizeof, untuk mengembalikan jumlah byte yang dipakai oleh sebuah tipe data atau variabel di memori.
         // int angka = 10;
         // cout << sizeof(angka);
 
