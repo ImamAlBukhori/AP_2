@@ -9,19 +9,19 @@ int main () {
     cout << "Masukkan nilai : ";
     cin >> nilai;
 
-    // // if statement
+    // // if statement, untuk menentukan kode suatu bilangan itu hanya satu kondisi tertentu.
     // if (nilai <= 65) {
     //     cout << "Anda vtidak lulus!" << endl;
     // }
 
-    // // if - else statement
+    // // if - else statement = untuk membuat pilihan antara dua jalur eksekusi berdasarkan kondisi.
     // if (nilai <= 65) {
     //     cout << "Anda tidak lulus!" << endl;
     // } else {
     //     cout << "Anda lulus !" << endl;
     // }    
 
-    // if -else - if statement
+    // if -else - if statement = untuk memilih beberapa kondisi.
     // if (nilai == 100) {
     //     cout << "Anda Keceh" << endl;
     //     } else if (nilai <= 65) {
@@ -30,7 +30,7 @@ int main () {
     //     cout << "Anda Lulus!" << endl;
     // }
 
-    // nested if 
+    // nested if = If statement yang ada di dalam if statement lain, berguna untuk memeriksa kondisi bertingkat secara berurutan.
     // if (nilai<= 65) {
     //     cout << "Anda tidak lulus" << endl;
     // } else {
@@ -41,7 +41,7 @@ int main () {
     //     }
     // }
 
-    // switch case
+    // switch case = untuk memilih satu dari beberapa opsi berdasar nilai variabel.
     // switch (nilai) {
     //     case 1:
     //         cout << "senin" << endl;
@@ -75,7 +75,7 @@ int main () {
     //         break;
     // }
 
-    // switch range
+    // switch range = statement tidak bisa langsung digunakan untuk mengecek range nilai
     // switch (nilai) {
     //     case 85 ... 100 : cout << "A" << endl; break;
     //     case 80 ... 84 : cout << "B+" << endl; break;
@@ -87,7 +87,7 @@ int main () {
      
     // }
 
-    // ternary operator 
+    // ternary operator = operator singkat untuk membuat if-else sederhana dalam satu baris kode.
     // if (nilai % 2 == 0) {
     //     cout << "genap" << endl;
     // } else {
